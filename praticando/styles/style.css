@@ -96,10 +96,6 @@ section {
     border-radius: 2px;
 }
 
-article {
-    
-}
-
 article > h1 {
     background-color: var(--cor03);
     color: white;
