@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+:root {
+    --cor01: #038F18;
+    --cor02: #24FF45;
+    --cor03: #09DB29;
+    --cor04: #8F0021;
+    --cor05: #DB0032;
+}
+
+body {
+    background-color: #c7c7c7;
+}
+
+header {
+    background-image: linear-gradient(to bottom,var(--cor04),var(--cor03));
+    max-width: 850px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.466);
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-family: fantasy;
+    font-size: 3em;
+    margin: 15px;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1em;
+    margin: 15px;
+}
+
+nav {
+    background-color: var(--cor03);
+    max-width: 850px;
+    text-align: center;
+    padding: 10px 25px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.466);
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: var(--cor02);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.281);
+    transition-duration: 1s;
+}
+
+section {
+    background-color: white;
+    max-width: 850px;
+    margin: auto;
+    margin-top: 2px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+}
+
+article {
+    margin: 2px;
+    padding: 2px;
+}
+
+article > h2 {
+    background-image: linear-gradient(to right,var(--cor01),transparent);
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 0.8em;
+    margin: 20px;
+}
+
+aside {
+    background-color: var(--cor05);
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+}
+
+aside > h2 {
+    background-image: linear-gradient(to right,var(--cor01),transparent);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+aside > p {
+    color: white;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 0.8em;
+    margin: 20px;
+}
+
+footer {
+    background-color: var(--cor05);
+    text-align: center;
+}
+
+footer > p {
+    color: white;
+    margin-top: 12px;
+    padding: 2px;
+}
